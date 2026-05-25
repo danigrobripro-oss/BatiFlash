@@ -8,8 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/artisan.css">
+  <!-- Chemins corrigés : fichiers à la racine -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="artisan.css">
   <script>
     (function () {
       var t = localStorage.getItem("batiflash-theme");
@@ -42,11 +43,11 @@
         <h1>Espace artisan</h1>
         <p>Connectez-vous pour voir et acheter des leads clients qualifiés.</p>
 
-        <a href="https://t.me/mon_agent_btp_bot?start=artisan" class="btn btn--primary btn--block" id="telegram-register" target="_blank" rel="noopener">
+        <a href="https://t.me/my_artisan_bot?start=artisan" class="btn btn--primary btn--block" id="telegram-register" target="_blank" rel="noopener">
           S'inscrire via Telegram
         </a>
 
-        <div class="auth-divider">ou</motion-placeholder>
+        <div class="auth-divider">ou</div>
 
         <form id="email-login-form">
           <div class="form-group">
@@ -85,8 +86,9 @@
     </section>
   </div>
 
-  <script src="js/config.js"></script>
-  <script src="js/artisan.js"></script>
+  <!-- Scripts : chemins corrigés (fichiers à la racine) -->
+  <script src="config.js"></script>
+  <script src="artisan.js"></script>
   <script>
     document.getElementById("logout-btn").hidden = false;
   </script>
